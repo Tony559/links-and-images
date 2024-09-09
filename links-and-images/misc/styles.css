@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgb(45, 3, 3), rgb(17, 0, 18));
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    overflow: hidden;
+    text-align: center;
+}
+.container {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.overlay { 
+    background-color: rgb(206, 206, 206);
+    box-shadow: 1em 2em 3em rgb(83, 83, 83);
+    border-radius: 1em;
+    width: 45dvw;
+    height:fit-content;
+    color: black;
+    margin: 1em;
+}
+
+ul {
+    width: 20dvw;
+    margin-left: 24%;
+}
+
+ol {
+    width: 5dvw;
+    margin-left: 40%;
+}
